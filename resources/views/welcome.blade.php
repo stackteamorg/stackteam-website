@@ -15,7 +15,7 @@
     <x-style list="default" />
 
     <!-- Site Stylesheet -->
-    <link rel="stylesheet" href="assets/css/app.css">
+    <x-style link="css/app.css" />
 
 </head>
 

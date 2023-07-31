@@ -13,22 +13,23 @@ class Style extends Component
      */
 
     public $link = null;
+    public $path = "assets-rtl/";
 
-    public function __construct($link=null,$list="default")
+    public function __construct($link=null,$list="",$defpath=true)
     {
-        $this->link = $link;
+        $this->link = $defpath ? $this->path . $link : $link;
 
         if ($list == "default") {
 
             $this->link = [
-                'assets/css/vendor/bootstrap.rtl.min.css',
-                'assets/css/vendor/font-awesome.css',
-                'assets/css/vendor/slick.css',
-                'assets/css/vendor/slick-theme.css',
-                'assets/css/vendor/sal.css',
-                'assets/css/vendor/magnific-popup.css',
-                'assets/css/vendor/green-audio-player.min.css',
-                'assets/css/vendor/odometer-theme-default.css',
+                $this->path . 'css/vendor/bootstrap.rtl.min.css',
+                $this->path . 'css/vendor/font-awesome.css',
+                $this->path . 'css/vendor/slick.css',
+                $this->path . 'css/vendor/slick-theme.css',
+                $this->path . 'css/vendor/sal.css',
+                $this->path . 'css/vendor/magnific-popup.css',
+                $this->path . 'css/vendor/green-audio-player.min.css',
+                $this->path . 'css/vendor/odometer-theme-default.css',
             ];
         }
     }
