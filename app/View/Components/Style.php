@@ -17,6 +17,7 @@ class Style extends Component
 
     public function __construct($link=null,$list="",$defpath=true)
     {
+
         $this->link = $defpath ? $this->path . $link : $link;
 
         if ($list == "default") {

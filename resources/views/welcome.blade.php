@@ -13,13 +13,15 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/media/favicon.png">
 
     <x-style list="default" />
-
+   
     <!-- Site Stylesheet -->
+    
     <x-style link="css/app.rtl.css" />
 
 </head>
 
 <body class="sticky-header">
+    @stack('stylesheets')
     <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   	<![endif]-->
@@ -192,14 +194,7 @@
                             <div class="large-thumb" data-sal="zoom-in" data-sal-duration="800" data-sal-delay="300">
                                 <img src="assets/media/banner/window.png" alt="Laptop">
                             </div>
-                            <div class="large-thumb-2" data-sal="slide-left" data-sal-duration="800" data-sal-delay="800">
-                                <img src="assets/media/banner/laptop-poses.png" alt="Laptop">
-                            </div>
-                            <ul class="list-unstyled shape-group">
-                                <li class="shape shape-1" data-sal="slide-left" data-sal-duration="500" data-sal-delay="800">
-                                    <img src="assets/media/banner/chat-group.png" alt="chat">
-                                </li>
-                            </ul>
+                            <x-termynal />
                         </div>
                     </div>
                 </div>
@@ -1152,6 +1147,7 @@
     <script src="assets/js/vendor/tilt.js"></script>
     <script src="assets/js/vendor/green-audio-player.min.js"></script>
     <script src="assets/js/vendor/jquery.nav.js"></script>
+    @stack('scripts')
 
     <!-- Site Scripts -->
     <script src="assets/js/app.js"></script>
