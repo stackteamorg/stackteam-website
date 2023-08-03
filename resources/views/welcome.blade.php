@@ -15,7 +15,7 @@
     <x-style list="default" />
 
     <!-- Site Stylesheet -->
-    <x-style link="css/app.css" />
+    <x-style link="css/app.rtl.css" />
 
 </head>
 

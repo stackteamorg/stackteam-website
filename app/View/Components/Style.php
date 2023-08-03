@@ -13,7 +13,7 @@ class Style extends Component
      */
 
     public $link = null;
-    public $path = "assets-rtl/";
+    public $path = "assets/";
 
     public function __construct($link=null,$list="",$defpath=true)
     {
