@@ -1,4 +1,4 @@
-<div id="termynal" data-termynal data-ty-typeDelay="40" data-ty-lineDelay="700">
+<div id="termynal" style="direction: ltr" data-termynal data-ty-typeDelay="40" data-ty-lineDelay="700">
     <span data-ty="input" data-ty-prompt="▲">npm uninstall react</span>
     <span data-ty>Are you sure you want to uninstall 'react'?</span>
     <span data-ty="input" data-ty-typeDelay="1000" data-ty-prompt="(y/n)">y</span>
@@ -13,10 +13,12 @@
 </div>
 
 @push('scripts')
-    <x-style link="js/termynal.js" />
+
+    <script src="{{ asset('assets/js/vendor/termynal.js') }}" data-termynal-container="#termynal"></script>
+    
 @endpush
 
 @push('styles')
-    asdasdsad
+asdasd
 @endpush
 

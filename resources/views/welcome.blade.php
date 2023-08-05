@@ -13,15 +13,19 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/media/favicon.png">
 
     <x-style list="default" />
-   
+
     <!-- Site Stylesheet -->
-    
     <x-style link="css/app.rtl.css" />
+
+    <!-- Page Stylesheet -->
+    <x-style link="css/vendor/termynal.css" />
+    @stack('styles')
+
 
 </head>
 
 <body class="sticky-header">
-    @stack('stylesheets')
+    
     <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   	<![endif]-->
@@ -191,10 +195,8 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="banner-thumbnail">
-                            <div class="large-thumb" data-sal="zoom-in" data-sal-duration="800" data-sal-delay="300">
-                                <img src="assets/media/banner/window.png" alt="Laptop">
-                            </div>
                             <x-termynal />
+                           
                         </div>
                     </div>
                 </div>
@@ -1132,25 +1134,12 @@
     </div>
 
     <!-- Jquery Js -->
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
-    <script src="assets/js/vendor/isotope.pkgd.min.js"></script>
-    <script src="assets/js/vendor/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/vendor/odometer.min.js"></script>
-    <script src="assets/js/vendor/jquery-appear.js"></script>
-    <script src="assets/js/vendor/slick.min.js"></script>
-    <script src="assets/js/vendor/sal.js"></script>
-    <script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/vendor/js.cookie.js"></script>
-    <script src="assets/js/vendor/jquery.style.switcher.js"></script>
-    <script src="assets/js/vendor/jquery.countdown.min.js"></script>
-    <script src="assets/js/vendor/tilt.js"></script>
-    <script src="assets/js/vendor/green-audio-player.min.js"></script>
-    <script src="assets/js/vendor/jquery.nav.js"></script>
+    <x-script list="default" />
+    
+    <!-- Page Js -->
     @stack('scripts')
-
     <!-- Site Scripts -->
-    <script src="assets/js/app.js"></script>
+    <x-script link="js/app.js" />
 </body>
 
 </html>
