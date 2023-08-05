@@ -5,6 +5,7 @@ namespace App\View\Components;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
+use Illuminate\Support\Facades\App;
 
 class Style extends Component
 {
@@ -14,25 +15,20 @@ class Style extends Component
 
     public $link = null;
     public $path = "assets/";
+    public $lang = null;
 
-    public function __construct($link=null,$list="",$defpath=true)
+    protected $rtlStylesheets = [
+        'assets/css/vendor/bootstrap.min.css',
+        'assets/css/app.css'
+    ];
+
+    public function __construct($link=null,$path='assets/',$lang=null)
     {
 
-        $this->link = $defpath ? $this->path . $link : $link;
+        $this->lang = $lang;
+        $this->path = $path;
 
-        if ($list == "default") {
-
-            $this->link = [
-                $this->path . 'css/vendor/bootstrap.rtl.min.css',
-                $this->path . 'css/vendor/font-awesome.css',
-                $this->path . 'css/vendor/slick.css',
-                $this->path . 'css/vendor/slick-theme.css',
-                $this->path . 'css/vendor/sal.css',
-                $this->path . 'css/vendor/magnific-popup.css',
-                $this->path . 'css/vendor/green-audio-player.min.css',
-                $this->path . 'css/vendor/odometer-theme-default.css',
-            ];
-        }
+        $this->link = $this->path . $link;
     }
 
     /**
@@ -40,6 +36,15 @@ class Style extends Component
      */
     public function render(): View|Closure|string
     {
+        $locale = App::currentLocale();
+
+        if (in_array($this->link,$this->rtlStylesheets) && in_array($locale,['ar','fa'])) {
+            $this->link = str_replace('.css','.rtl.css',$this->link);
+        }
+
+        if (!is_null($this->lang) && !App::isLocale($this->lang)) {
+            return '';
+        }
         return view('components.style');
     }
 }

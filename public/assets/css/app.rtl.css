@@ -97,8 +97,8 @@ STYLESHEET INDEXING
     --border-lighter: 1px solid #ECF2F6;
     --border-dark: 1px solid var(--color-ship-gray);
     --border-gray: 1px solid var(--color-gray-4);
-    --font-primary: "DM Sans", sans-serif;
-    --font-secondary: "Poppins", sans-serif;
+    --font-primary: "base-font";
+    --font-secondary: "base-font";
     --font-awesome: "Font Awesome 5 Pro";
     --transition: all 0.3s ease-in-out;
     --font-body-1: 18px;

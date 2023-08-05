@@ -12,10 +12,20 @@
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/media/favicon.png">
 
-    <x-style list="default" />
+    <x-style link="css/vendor/bootstrap.min.css" />
+    <x-style link="css/vendor/font-awesome.css" />
+    <x-style link="css/vendor/slick.css" />
+    <x-style link="css/vendor/slick-theme.css" />
+    <x-style link="css/vendor/sal.css" />
+    <x-style link="css/vendor/magnific-popup.css" />
+    <x-style link="css/vendor/green-audio-player.min.css" />
+    <x-style link="css/vendor/odometer-theme-default.css" />
 
     <!-- Site Stylesheet -->
-    <x-style link="css/app.rtl.css" />
+    <x-style link="fonts/somar/font.css" lang="ar"/>
+    <x-style link="fonts/shabnam/font.css" lang="fa"/>
+
+    <x-style link="css/app.css" />
 
     <!-- Page Stylesheet -->
     <x-style link="css/vendor/termynal.css" />
