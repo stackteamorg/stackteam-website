@@ -17,6 +17,6 @@
 @endpush
 
 @push('styles')
-asdasd
+<x-style link="css/vendor/termynal.css" />
 @endpush
 
