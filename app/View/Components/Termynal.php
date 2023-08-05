@@ -11,9 +11,12 @@ class Termynal extends Component
     /**
      * Create a new component instance.
      */
-    public function __construct()
+
+    public $holder = null;
+
+    public function __construct($holder="termynal")
     {
-        //
+        $this->holder = $holder;
     }
 
     /**

@@ -15,30 +15,10 @@ class Script extends Component
     public $link = null;
     public $path = "assets/";
 
-    public function __construct($link=null,$list="",$defpath=true)
+    public function __construct($link=null,$path="assets/")
     {
-        $this->link = $defpath ? $this->path . $link : $link;
-
-        if ($list == "default") {
-
-            $this->link = [
-                $this->path . 'js/vendor/jquery-3.6.0.min.js',
-                $this->path . 'js/vendor/bootstrap.min.js',
-                $this->path . 'js/vendor/isotope.pkgd.min.js',
-                $this->path . 'js/vendor/imagesloaded.pkgd.min.js',
-                $this->path . 'js/vendor/odometer.min.js',
-                $this->path . 'js/vendor/jquery-appear.js',
-                $this->path . 'js/vendor/slick.min.js',
-                $this->path . 'js/vendor/sal.js',
-                $this->path . 'js/vendor/jquery.magnific-popup.min.js',
-                $this->path . 'js/vendor/js.cookie.js',
-                $this->path . 'js/vendor/jquery.style.switcher.js',
-                $this->path . 'js/vendor/jquery.countdown.min.js',
-                $this->path . 'js/vendor/tilt.js',
-                $this->path . 'js/vendor/green-audio-player.min.js',
-                $this->path . 'js/vendor/jquery.nav.js',
-            ];
-        }
+        $this->path = $path;
+        $this->link = $this->path . $link ;
     }
 
     /**
