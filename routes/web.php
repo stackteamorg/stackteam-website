@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\About;
-use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\CollaborativeProcess;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,4 +20,4 @@ Route::get('/', function () {
 })->name('index');
 
 Route::get('/about',About::class)->name('about');
-Route::get('/collaborative',About::class)->name('process');
+Route::get('/process',CollaborativeProcess::class)->name('process');
