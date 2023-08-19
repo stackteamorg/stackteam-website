@@ -144,12 +144,7 @@
                                     <h2 class="title">Get in touch!</h2>
                                     <p>Fusce varius, dolor tempor interdum tristique, dui urna bib
                                         endum magna, ut ullamcorper purus</p>
-                                    <form>
-                                        <div class="input-group">
-                                            <input type="email" class="form-control" placeholder="Email address">
-                                            <button class="subscribe-btn" type="submit">Subscribe</button>
-                                        </div>
-                                    </form>
+                                    <x-get-in-touch />
                                 </div>
                             </div>
                         </div>

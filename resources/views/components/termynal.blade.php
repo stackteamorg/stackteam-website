@@ -12,6 +12,7 @@
     <span data-ty="input" data-ty-prompt="▲ ~/repos (master)">git commit -m "Fix things"</span>
 </div>
 
+
 @push('scripts')
 <x-script link="js/vendor/termynal.js" data-termynal-container="#{{ $holder }}" />    
 @endpush
