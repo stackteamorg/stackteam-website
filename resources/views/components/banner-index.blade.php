@@ -8,7 +8,7 @@
                         <div class="banner-content" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
                             <h1 class="title">استک تیم</h1>
                             <span class="subtitle">استک تیم اولین پروایدر Team as a Service در ایران</span>
-                            <a href="contact.html" class="axil-btn btn-fill-primary btn-large">Get Started</a>
+                            <x-get-in-touch />
                         </div>
                     </div>
                     <div class="col-lg-6">

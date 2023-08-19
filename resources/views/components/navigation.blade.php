@@ -11,63 +11,28 @@
         </div>
     </div>
     <ul class="mainmenu">
+        <li><a href="contact.html">خانه</a></li>
+        <li><a href="contact.html">درباره ما</a></li>
         <li class="menu-item-has-children">
-            <a href="javascript:void(0);">Digital Agency</a>
+            <a href="javascript:void(0);">خدمات ما</a>
             <ul class="axil-submenu">
-                <li><a href="index-1.html">Digital Agency</a></li>
-                <li><a href="index-2.html">Creative Agency</a></li>
-                <li><a href="index-3.html">Personal Portfolio</a></li>
-                <li><a href="index-4.html">Home Startup</a></li>
-                <li><a href="index-5.html">Corporate Agency</a></li>
+                <li><a href="index-1.html">برنامه نویسی وب</a></li>
+                <li><a href="index-2.html">برنامه نویسی موبایل</a></li>
+                <li><a href="index-3.html">همه</a></li>
             </ul>
         </li>
+
         <li class="menu-item-has-children">
-            <a href="javascript:void(0);">Services</a>
+            <a href="javascript:void(0);">تکنولوژی ها</a>
             <ul class="axil-submenu">
-                <li><a href="service.html">Service</a></li>
-                <li><a href="service-2.html">Service Two</a></li>
-                <li><a href="service-design.html">Service Details</a></li>
+                <li><a href="index-1.html">استک PHP/Laravel</a></li>
+                <li><a href="index-2.html">استک موبایل Flutter</a></li>
+                <li><a href="index-3.html">همه</a></li>
             </ul>
         </li>
-        <li class="menu-item-has-children">
-            <a href="javascript:void(0);">Portfolio</a>
-            <ul class="axil-submenu">
-                <li><a href="portfolio.html">Two Column</a></li>
-                <li><a href="portfolio-2.html">Three Column</a></li>
-                <li><a href="portfolio-3.html">Four Column</a></li>
-                <li><a href="portfolio-4.html">Three Column Width</a></li>
-                <li><a href="portfolio-5.html">Four Column Width</a></li>
-                <li><a href="single-portfolio.html">Portfolio Details</a></li>
-            </ul>
-        </li>
-        <li class="menu-item-has-children">
-            <a href="javascript:void(0);">Pages</a>
-            <ul class="axil-submenu">
-                <li><a href="about-us.html">About Us</a></li>
-                <li><a href="our-office.html">Our Office</a></li>
-                <li><a href="case-study.html">Case Study</a></li>
-                <li><a href="single-case-study.html">Case Study Details</a></li>
-                <li><a href="team.html">Team</a></li>
-                <li><a href="single-team.html">Team Details</a></li>
-                <li><a href="our-clients.html">Our Clients</a></li>
-                <li><a href="testimonial.html">Testimonial</a></li>
-                <li><a href="pricing-table.html">Pricing Table</a></li>
-                <li><a href="typography.html">Typography</a></li>
-                <li><a href="404.html">404 Page</a></li>
-                <li><a href="coming-soon.html">Coming Soon</a></li>
-            </ul>
-        </li>
-        <li class="menu-item-has-children">
-            <a href="javascript:void(0);">Blog</a>
-            <ul class="axil-submenu">
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="single-blog.html">Standard Post</a></li>
-                <li><a href="single-blog-gallery.html">Gallery Post</a></li>
-                <li><a href="single-blog-video.html">Video Post</a></li>
-                <li><a href="single-blog-audio.html">Audio Post</a></li>
-                <li><a href="single-blog-quote.html">Quote Post</a></li>
-            </ul>
-        </li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html">بلاگ</a></li>
+        <li><a href="contact.html">فرایند همکاری</a></li>
+        <li><a href="contact.html">درخواست همکاری</a></li>
+
     </ul>
 </nav>
