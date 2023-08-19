@@ -20,3 +20,4 @@ Route::get('/', function () {
 })->name('index');
 
 Route::get('/about',About::class)->name('about');
+Route::get('/collaborative',About::class)->name('process');
