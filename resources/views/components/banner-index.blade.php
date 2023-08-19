@@ -6,7 +6,7 @@
                 <div class="row align-items-end align-items-xl-start">
                     <div class="col-lg-6">
                         <div class="banner-content" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
-                            <h1 class="title">استک تیم</h1>
+                            <h1 class="title"><img style="width: 128px; height: 128px;" src="{{ asset('assets/media/logo/favicon.png') }}" /> {!! __('content.title') !!}</h1>
                             <span class="subtitle">{!! __('content.subtitle') !!}</span>
                             <x-get-in-touch />
                         </div>

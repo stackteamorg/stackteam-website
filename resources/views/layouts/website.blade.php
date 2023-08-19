@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/media/favicon.png') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/media/logo/favicon.png') }}">
 
     <x-style link="css/vendor/bootstrap.min.css" />
     <x-style link="css/vendor/font-awesome.css" />
@@ -70,7 +70,7 @@
                 <div class="container">
                     <div class="header-navbar">
                         <div class="header-logo">
-                            <a href="index-1.html"><img class="light-version-logo" src="{{ asset('assets/media/logo/' . app()->getLocale() . '/logo.png') }}" alt="logo"></a>
+                            <a href="{{ route('index') }}"><img class="dark-version-logo" style="width: 64px; height: 64px;" src="{{ asset('assets/media/logo/logo.png') }}" alt="logo"></a>
                         </div>
                         <div class="header-main-nav">
                             <!-- Start Mainmanu Nav -->
