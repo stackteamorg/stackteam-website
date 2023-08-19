@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/media/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/media/favicon.png') }}">
 
     <x-style link="css/vendor/bootstrap.min.css" />
     <x-style link="css/vendor/font-awesome.css" />
@@ -70,9 +70,9 @@
                 <div class="container">
                     <div class="header-navbar">
                         <div class="header-logo">
-                            <a href="index-1.html"><img class="light-version-logo" src="assets/media/logo.svg" alt="logo"></a>
-                            <a href="index-1.html"><img class="dark-version-logo" src="assets/media/logo-3.svg" alt="logo"></a>
-                            <a href="index-1.html"><img class="sticky-logo" src="assets/media/logo-2.svg" alt="logo"></a>
+                            <a href="index-1.html"><img class="light-version-logo" src="{{ asset('assets/media/logo.svg') }}" alt="logo"></a>
+                            <a href="index-1.html"><img class="dark-version-logo" src="{{ asset('assets/media/logo-3.svg') }}" alt="logo"></a>
+                            <a href="index-1.html"><img class="sticky-logo" src="{{ asset('assets/media/logo-2.svg') }}" alt="logo"></a>
                         </div>
                         <div class="header-main-nav">
                             <!-- Start Mainmanu Nav -->
