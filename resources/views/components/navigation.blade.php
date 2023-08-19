@@ -11,8 +11,8 @@
         </div>
     </div>
     <ul class="mainmenu">
-        <li><a href="contact.html">خانه</a></li>
-        <li><a href="contact.html">درباره ما</a></li>
+        <li><a href="{{ route('index',['lang' => app()->getLocale()]) }}">خانه</a></li>
+        <li><a href="{{ route('about',['lang' => app()->getLocale()]) }}">درباره ما</a></li>
         <li class="menu-item-has-children">
             <a href="javascript:void(0);">خدمات ما</a>
             <ul class="axil-submenu">
@@ -25,14 +25,14 @@
         <li class="menu-item-has-children">
             <a href="javascript:void(0);">تکنولوژی ها</a>
             <ul class="axil-submenu">
-                <li><a href="index-1.html">استک PHP/Laravel</a></li>
-                <li><a href="index-2.html">استک موبایل Flutter</a></li>
-                <li><a href="index-3.html">همه</a></li>
+                <li><a href="#">استک PHP/Laravel</a></li>
+                <li><a href="#">استک موبایل Flutter</a></li>
+                <li><a href="#">همه</a></li>
             </ul>
         </li>
-        <li><a href="contact.html">بلاگ</a></li>
-        <li><a href="contact.html">فرایند همکاری</a></li>
-        <li><a href="contact.html">درخواست همکاری</a></li>
+        <li><a href="#">بلاگ</a></li>
+        <li><a href="{{ route('process',['lang' => app()->getLocale()]) }}">فرایند همکاری</a></li>
+        <li><a href="{{ route('brief',['lang' => app()->getLocale()]) }}">درخواست همکاری</a></li>
 
     </ul>
 </nav>
