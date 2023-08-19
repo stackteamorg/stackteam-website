@@ -70,9 +70,7 @@
                 <div class="container">
                     <div class="header-navbar">
                         <div class="header-logo">
-                            <a href="index-1.html"><img class="light-version-logo" src="{{ asset('assets/media/logo.svg') }}" alt="logo"></a>
-                            <a href="index-1.html"><img class="dark-version-logo" src="{{ asset('assets/media/logo-3.svg') }}" alt="logo"></a>
-                            <a href="index-1.html"><img class="sticky-logo" src="{{ asset('assets/media/logo-2.svg') }}" alt="logo"></a>
+                            <a href="index-1.html"><img class="light-version-logo" src="{{ asset('assets/media/logo/' . app()->getLocale() . '/logo.png') }}" alt="logo"></a>
                         </div>
                         <div class="header-main-nav">
                             <!-- Start Mainmanu Nav -->

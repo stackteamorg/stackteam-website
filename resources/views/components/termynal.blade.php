@@ -1,15 +1,17 @@
-<div id="{{ $holder }}" style="direction: ltr" data-termynal data-ty-typeDelay="40" data-ty-lineDelay="700">
-    <span data-ty="input" data-ty-prompt="▲">npm uninstall react</span>
-    <span data-ty>Are you sure you want to uninstall 'react'?</span>
-    <span data-ty="input" data-ty-typeDelay="1000" data-ty-prompt="(y/n)">y</span>
-    <span data-ty="progress" data-ty-progressChar="·"></span>
-    <span data-ty>Uninstalled 'react'</span>
-    <span data-ty="input" data-ty-prompt="▲">node</span>
-    <span data-ty="input" data-ty-prompt=">">Array(5).fill('🦄 ')</span>
-    <span data-ty>['🦄', '🦄', '🦄', '🦄', '🦄']</span>
-    <span data-ty="input" data-ty-prompt="▲">cd ~/repos</span>
-    <span data-ty="input" data-ty-prompt="▲ ~/repos"> git checkout branch master</span>
-    <span data-ty="input" data-ty-prompt="▲ ~/repos (master)">git commit -m "Fix things"</span>
+<div id="termynal" data-termynal data-termynal data-ty-typeDelay="40" data-ty-lineDelay="700" style="direction: ltr">
+    <span data-ty="input">pip install stackteam --taas</span>
+    <span data-ty="progress"></span>
+    <span data-ty>Successfully installed stackteam</span>
+    <span data-ty></span>
+    <span data-ty="input">stackteam create team --python</span>
+    <span data-ty="progress"></span>
+    <span data-ty>Successfully created your team</span>
+    <span data-ty></span>
+    <span data-ty="input">python</span>
+    <span data-ty="input" data-ty-prompt=">>>">import taas</span>
+    <span data-ty="input" data-ty-prompt=">>>">myProject = taas.dev('idea')</span>
+    <span data-ty="input" data-ty-prompt=">>>">myProject.deploy()</span>
+    <span data-ty="input" data-ty-prompt=">>>">myProject.continuousDevelopment()</span>
 </div>
 
 

@@ -11,10 +11,10 @@
         </div>
     </div>
     <ul class="mainmenu">
-        <li><a href="{{ route('index',['lang' => app()->getLocale()]) }}">خانه</a></li>
-        <li><a href="{{ route('about',['lang' => app()->getLocale()]) }}">درباره ما</a></li>
+        <li><a href="{{ route('index',['lang' => app()->getLocale()]) }}">{{ __('menu.home')}}</a></li>
+        <li><a href="{{ route('about',['lang' => app()->getLocale()]) }}">{{ __('menu.about')}}</a></li>
         <li class="menu-item-has-children">
-            <a href="javascript:void(0);">خدمات ما</a>
+            <a href="javascript:void(0);">{{ __('menu.service')}}</a>
             <ul class="axil-submenu">
                 <li><a href="index-1.html">برنامه نویسی وب</a></li>
                 <li><a href="index-2.html">برنامه نویسی موبایل</a></li>
@@ -23,16 +23,16 @@
         </li>
 
         <li class="menu-item-has-children">
-            <a href="javascript:void(0);">تکنولوژی ها</a>
+            <a href="javascript:void(0);">{{ __('menu.tech')}}</a>
             <ul class="axil-submenu">
                 <li><a href="#">استک PHP/Laravel</a></li>
                 <li><a href="#">استک موبایل Flutter</a></li>
                 <li><a href="#">همه</a></li>
             </ul>
         </li>
-        <li><a href="#">بلاگ</a></li>
-        <li><a href="{{ route('process',['lang' => app()->getLocale()]) }}">فرایند همکاری</a></li>
-        <li><a href="{{ route('brief',['lang' => app()->getLocale()]) }}">درخواست همکاری</a></li>
+        <li><a href="#">{{ __('menu.blog')}}</a></li>
+        <li><a href="{{ route('process',['lang' => app()->getLocale()]) }}">{{ __('menu.process')}}</a></li>
+        <li><a href="{{ route('brief',['lang' => app()->getLocale()]) }}">{{ __('menu.brief')}}</a></li>
 
     </ul>
 </nav>
