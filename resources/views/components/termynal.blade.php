@@ -1,4 +1,4 @@
-<div id="termynal" data-termynal data-termynal data-ty-typeDelay="40" data-ty-lineDelay="700" style="direction: ltr">
+<div id="termynal" data-termynal data-termynal data-ty-typeDelay="40" data-ty-lineDelay="700" style="direction: ltr;font-size: 14px; opacity:80%">
     <span data-ty="input">pip install stackteam --taas</span>
     <span data-ty="progress"></span>
     <span data-ty>Successfully installed stackteam</span>
