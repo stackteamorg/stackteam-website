@@ -3,6 +3,7 @@
 use App\Http\Controllers\About;
 use App\Http\Controllers\CollaborativeProcess;
 use App\Http\Controllers\Brief;
+use App\Http\Controllers\Welcome;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,9 +17,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-})->name('index');
+Route::get('/',Welcome::class)->name('index');
 
 Route::get('/about',About::class)->name('about');
 Route::get('/process',CollaborativeProcess::class)->name('process');
