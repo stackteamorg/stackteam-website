@@ -1,23 +1,23 @@
  <!--=====================================-->
         <!--=       About Team  Area Start      =-->
         <!--=====================================-->
-        <section class="section-padding-equal">
+        <section class="section-padding-equal bg-color-light">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-7" data-sal="slide-right" data-sal-duration="800" data-sal-delay="100">
                         <div class="about-team">
-                            <div class="thumbnail">
-                                <img src="assets/media/about/about-2.png" alt="thumbnail">
+                            <div class="large-thumb sal-animate" data-sal="slide-up" data-sal-duration="800" data-sal-delay="500">
+                                <img class="paralax-image" src="{{ asset('assets/media/team.jpg') }}" alt="Shape" style="border-radius: 12px;will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg);">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-5" data-sal="slide-left" data-sal-duration="800" data-sal-delay="100">
                         <div class="about-team">
                             <div class="section-heading heading-left">
-                                <span class="subtitle">Our Team</span>
-                                <h2>Alone we can do so little; together we can do so much.</h2>
-                                <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero.</p>
-                                <a href="team.html" class="axil-btn btn-large btn-fill-primary">Our Team</a>
+                                <span class="subtitle">مختری درباره استک تیم</span>
+                                <h2 class="h6">خدمات <code>Team as a Service</code> چیست ؟ </h2>
+                                <p>در اینجا برخی از خدمات استک تیم رو معرفی کردیم، در این اسکیل ها می‌تونیم افتخار همکاری با شرکت/استارتاپ و یا سازمان شما رو داشته باشیم و تیم های تخصصی را در اختیار شما بزاریم</p>
+                                <a href="team.html" class="axil-btn btn-large btn-fill-primary">مطالعه بیشتر</a>
                             </div>
                         </div>
                     </div>

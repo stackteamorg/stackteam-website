@@ -1,12 +1,13 @@
 <!--=====================================-->
         <!--=      About  Quality Area Start    =-->
         <!--=====================================-->
-        <section class="section section-padding bg-color-dark pb--80 pb_lg--40 pb_md--20">
+        <section class="section section-padding bg-color-light pb--80 pb_lg--40 pb_md--20">
             <div class="container">
-                <div class="section-heading heading-light-left mb--100">
-                    <span class="subtitle">Our Valus</span>
-                    <h2 class="title">Why should you work with us?</h2>
-                    <p class="opacity-50">Nulla facilisi. Nullam in magna id dolor
+                <div class="section-heading heading-left mb--100">
+                    <span class="subtitle">جای شما در لیست پارنتر های استک تیم خالی است!
+                    </span>
+                    <h2 class="title">فرایند همکاری با استک تیم</h2>
+                    <p class="opacity-10">Nulla facilisi. Nullam in magna id dolor
                         blandit rutrum eget vulputate augue sed eu leo eget risus imperdiet.</p>
                 </div>
                 <div class="row">
@@ -50,9 +51,5 @@
                     </div>
                 </div>
             </div>
-            <ul class="list-unstyled shape-group-10">
-                <li class="shape shape-1"><img src="assets/media/others/circle-1.png" alt="Circle"></li>
-                <li class="shape shape-2"><img src="assets/media/others/line-3.png" alt="Circle"></li>
-                <li class="shape shape-3"><img src="assets/media/others/bubble-5.png" alt="Circle"></li>
-            </ul>
+
         </section>

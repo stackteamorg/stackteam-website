@@ -21,7 +21,7 @@ class ServiceIndex extends Component
         $this->services = Service::where('is_primary',true)->get();
         // end get services
 
-        print_r($this->services->toArray());die();
+        //print_r($this->services->toArray());die();
     }
 
     /**

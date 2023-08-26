@@ -2706,12 +2706,13 @@ Pagination
 }
 
 .about-quality .title {
-    color: var(--color-white);
+    /* color: var(--color-white); */
+    opacity: 0.8;
 }
 
 .about-quality p {
     opacity: 0.5;
-    color: var(--color-white);
+    /* color: var(--color-white); */
     -webkit-transition: var(--transition);
     transition: var(--transition);
 }
