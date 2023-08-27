@@ -18,27 +18,21 @@
                     </div>
                 </div>
             </div>
-            <ul class="list-unstyled shape-group-21">
+            <ul class="list-unstyled shape-group-20">
                 <li class="shape shape-1" data-sal="slide-down" data-sal-duration="500" data-sal-delay="100">
-                    <img src="{{ asset('assets/media/others/bubble-39.png') }}" alt="Bubble">
-                </li>
-                <li class="shape shape-2" data-sal="zoom-in" data-sal-duration="800" data-sal-delay="500">
-                    <img src="{{ asset('assets/media/others/bubble-38.png') }}" alt="Bubble">
-                </li>
-                <li class="shape shape-3" data-sal="slide-left" data-sal-duration="500" data-sal-delay="700">
-                    <img src="{{ asset('assets/media/others/bubble-14.png') }}" alt="Bubble">
+                    <img src="{{ asset('assets/media/others/bubble-32.png') }}" alt="Bubble">
                 </li>
                 <li class="shape shape-4" data-sal="slide-left" data-sal-duration="500" data-sal-delay="700">
                     <img src="{{ asset('assets/media/others/bubble-14.png') }}" alt="Bubble">
                 </li>
                 <li class="shape shape-5" data-sal="slide-left" data-sal-duration="500" data-sal-delay="700">
-                    <img src="{{ asset('assets/media/others/bubble-14.png') }}" alt="Bubble">
+                    <img src="{{ asset('assets/media/others/bubble-4.png') }}" alt="Bubble">
                 </li>
                 <li class="shape shape-6" data-sal="slide-left" data-sal-duration="500" data-sal-delay="700">
-                    <img src="{{ asset('assets/media/others/bubble-40.png') }}" alt="Bubble">
+                    <img src="{{ asset('assets/media/others/bubble-30.png') }}" alt="Bubble">
                 </li>
                 <li class="shape shape-7" data-sal="slide-left" data-sal-duration="500" data-sal-delay="700">
-                    <img src="{{ asset('assets/media/others/bubble-41.png') }}" alt="Bubble">
+                    <img src="{{ asset('assets/media/others/bubble-31.png') }}" alt="Bubble">
                 </li>
             </ul>
         </section>
