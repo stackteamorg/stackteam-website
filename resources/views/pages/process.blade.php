@@ -1,4 +1,4 @@
 <x-website-layout>
-    <x-banner-about />
+    <x-process-banner />
     <x-case-content />
 </x-website-layout>
